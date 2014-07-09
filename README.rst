@@ -1,4 +1,4 @@
-SIP-PROXPY
+sip-proxpy
 ==========
 This is a fork of proxpy as used in our DAVID-SIP projects. Proxpy was written 
 by Roberto Paleari and Allessandro Reina with patches by Yeuk Hon Wong 
@@ -25,7 +25,7 @@ your choice) where the proxpy plugins are stored. You may want to download the
 plugin examples separately to place them in a convenient location to run the 
 example below. 
 
-Example: Passing custom headers to shiny-server-pro
+Custom HTTP Headers to shiny-server-pro
 -----------------------------------------------------
 The reference implementation of a proxy that rewrites request headers is `Jeff
 Allens version in nodejs <https://gist.github.com/trestletech/7160493>`_ and
@@ -39,21 +39,8 @@ Running the example
 After installing sipproxpy you can run your the example plugin as the basis for
 creating your own::
 
-     $ sipproxpy -p 8001 -r localhost:3838 -x plugins/shinycustomheader.py
+     $ sipproxpy -p 8001 -r localhost:3838 -x plugins/shinycustomheader.py
 
 or replace 'localhost:3838' with the URL or IP address of the location where
 you have installed shiny-server-pro. 
-
-Change history
----------------
-[1.2]
-    - Made installable package and tested installation and import of proxpy
-      modules in other applications
-    - Added plugin for the shiny-httpheader-test example of rewriting shiny 
-      server pro http headers
-[1.1] 
-    - Added fixes from https://github.com/yeukhon/proxpy/
-[1.0] 
-    - start based on r29 of https://code.google.com/p/proxpy/
-
 

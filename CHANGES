@@ -1,0 +1,13 @@
+Change history
+---------------
+[1.2]
+    - Made installable package and tested installation and import of proxpy
+      modules in other applications
+    - Added plugin for the shiny-httpheader-test example of rewriting shiny 
+      server pro http headers
+[1.1] 
+    - Added fixes from https://github.com/yeukhon/proxpy/
+[1.0] 
+    - start based on r29 of https://code.google.com/p/proxpy/
+
+
