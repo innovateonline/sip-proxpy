@@ -1,0 +1,17 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+sip_proxpy.egg-info/PKG-INFO
+sip_proxpy.egg-info/SOURCES.txt
+sip_proxpy.egg-info/dependency_links.txt
+sip_proxpy.egg-info/entry_points.txt
+sip_proxpy.egg-info/top_level.txt
+sip_proxpy.egg-info/zip-safe
+sipproxpy/__init__.py
+sipproxpy/core.py
+sipproxpy/history.py
+sipproxpy/http.py
+sipproxpy/https.py
+sipproxpy/logger.py
+sipproxpy/proxpy.py

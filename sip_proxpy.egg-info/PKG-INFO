@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: sip-proxpy
+Version: 1.2dev
+Summary: Customizable HTTP/HTTPS proxy with plugin architecture
+Home-page: http://innovateonline.nl
+Author: Frans van Dunné
+Author-email: frans@southshield.net
+License: GPLv3+
+Description: A fork of ProxPy as used in DAVID Social Innovation Platform
+Keywords: proxy shiny-server-pro
+Platform: UNKNOWN
